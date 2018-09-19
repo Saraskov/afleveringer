@@ -1,0 +1,21 @@
+@charset "utf-8";
+/* CSS Document */
+
+h2{
+	color: red;
+}
+
+table{
+	height: auto;
+	width: 800px;
+	border-color:#2B2B2B;
+}
+
+.center{
+	text-align: center;
+	margin: auto;
+}
+
+.navigation{
+	text-align: center;
+}
