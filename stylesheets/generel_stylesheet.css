@@ -1,0 +1,41 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*navigation*/
+.navigation{
+	text-align: center;
+	margin-bottom: 50px;
+	background-color: #868585;
+}
+
+.navigation h4{
+	font-size: 20px;
+	color: beige;
+	font-family: "times New Roman", Times, serif;
+}
+
+.navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.navigation li {
+    float: left;
+}
+
+.navigation li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 2px 2px;
+    text-decoration: none;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.navigation li a:hover {
+    background-color: #111;
+}

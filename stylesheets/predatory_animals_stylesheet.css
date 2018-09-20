@@ -1,10 +1,10 @@
 @charset "utf-8";
 /* CSS Document */
+/*Det her er en kommentar inden for css*/
 
+/*Overskrifter*/
 h1{
-	margin-top:40px;
 	font-family: "Times New Roman", Times, serif;
-	text-align: center;	
 }
 
 h2{
@@ -22,9 +22,11 @@ h4{
 	font-family: "times New Roman", Times, serif;
 }
 
+/*Table indhold*/
 table{
 	border-collapse: collapse;
 }
+
 
 #animals th, #animals td{
 	border:1px groove black;
@@ -41,19 +43,16 @@ td{
 	width: 33%;
 }
 
+table td th{
+	border: 1px solid black;
+}
+
+
+
+/*generelt*/
 .center{
 	text-align: center;
 	margin: auto;
-}
-
-.navigation{
-	text-align: center;
-	margin-bottom: 50px;
-	background-color: #868585;
-}
-
-table td th{
-	border: 1px solid black;
 }
 
 #header p{
@@ -66,30 +65,4 @@ table td th{
 p{
 	margin-top: 10px;
 	margin-left: 8px;
-}
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-}
-
-li {
-    float: left;
-}
-
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 2px 2px;
-    text-decoration: none;
-	margin-left: 10px;
-	margin-right: 10px;
-}
-
-li a:hover {
-    background-color: #111;
 }
