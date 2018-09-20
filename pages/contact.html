@@ -8,13 +8,46 @@
 </head>
 
 <body>
-<h1>Contact</h1>
-	<nav class=navigation>
-			<ul>
-			<li><a href="../index.html"><h4>Home</h4></a></li>
-			<li><a href="predatory_animals.html"><h4>Predatory Animals</h4></a></li>
-			<li><a href="#"><h4>Contact</h4></a></li>
-			</ul>
-		</nav>
+<header>
+  <h1>Contact</h1>
+  <nav class=navigation>
+    <ul>
+      <li><a href="../index.html">
+        <h4>Home</h4>
+        </a></li>
+      <li><a href="predatory_animals.html">
+        <h4>Predatory Animals</h4>
+        </a></li>
+      <li><a href="#">
+        <h4>Contact</h4>
+        </a></li>
+    </ul>
+  </nav>
+</header>
+
+<!--webform-->
+<form action="mailto:cph-sf131@cphbusiness.dk" method="post" enctype="text/plain">
+  <p>
+    <label>Your Name:</label>
+  </p>
+  <p>
+    <input type="text" name="name" placeholder="Type your name" autofocus required>
+  </p>
+  <p>
+    <label>Your Email:</label>
+  </p>
+  <p>
+    <input type="email" name="email" placeholder="Type a valid email" required>
+  </p>
+  <p>
+    <label>Add a comment</label>
+  </p>
+  <p>
+    <textarea name="comment" placeholder="Your message.."></textarea>
+  </p>
+  <p>I love this!<input type="radio" name="love"></p>
+  <input type="submit" value="Submit Form">
+</form>
+
 </body>
 </html>
