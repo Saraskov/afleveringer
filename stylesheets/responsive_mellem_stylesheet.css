@@ -1,0 +1,28 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*CSS til mellemformater fx tablets*/
+
+footer {
+	display: block;
+	height: 80px;
+	background-color: lightblue;
+}
+
+.logo {
+	width: 15.5%;
+}
+
+nav {
+	width: 75.5%;
+	height: 60px;
+}
+
+article {
+	width: 60%;
+}
+
+.banner {
+	width: 32%;
+	background-color: yellowgreen;
+}

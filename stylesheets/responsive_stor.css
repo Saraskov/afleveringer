@@ -1,0 +1,21 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* CSS til store skærme fx desktop */
+
+body {
+	margin: 1%;
+}
+
+aside {
+	display: block;
+	width: 15.5%;
+}
+
+article {
+	width: 50.5%;
+}
+
+.banner {
+	width: 20%;
+}
